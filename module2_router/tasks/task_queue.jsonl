@@ -1,0 +1,10 @@
+{"id": 1, "prompt": "What is the capital of France?"}
+{"id": 2, "prompt": "Translate 'thank you' into Japanese."}
+{"id": 3, "prompt": "Write a 500-word essay comparing Kantian ethics and utilitarianism, focusing on how each framework handles moral dilemmas involving conflicting duties."}
+{"id": 4, "prompt": "What is 144 divided by 12?"}
+{"id": 5, "prompt": "Analyse the geopolitical implications of de-dollarisation on BRICS nations and the long-term impact on the global reserve currency system."}
+{"id": 6, "prompt": "Give me a synonym for 'happy'."}
+{"id": 7, "prompt": "Explain the step-by-step mechanism of CRISPR-Cas9 gene editing and discuss its ethical implications in human germline modification."}
+{"id": 8, "prompt": "How many days are in a week?"}
+{"id": 9, "prompt": "What colour is the sky?"}
+{"id": 10, "prompt": "Design a distributed caching strategy for a microservices architecture handling 10 million requests per day, considering consistency, availability, and partition tolerance trade-offs."}

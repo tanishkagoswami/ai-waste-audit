@@ -1,0 +1,500 @@
+{"id": 1, "text": "The quick brown fox jumps over the lazy dog."}
+{"id": 2, "text": "A fast brown fox leaps over a sleepy dog."}
+{"id": 3, "text": "Machine learning models require large amounts of data to train effectively."}
+{"id": 4, "text": "Deep learning systems need massive datasets to learn well."}
+{"id": 5, "text": "Climate change is causing rising sea levels globally."}
+{"id": 6, "text": "Global warming is leading to higher ocean levels around the world."}
+{"id": 7, "text": "Python is a popular programming language for data science."}
+{"id": 8, "text": "Python is widely used in data science and machine learning."}
+{"id": 9, "text": "The Eiffel Tower is located in Paris, France."}
+{"id": 10, "text": "Paris, the capital of France, is home to the Eiffel Tower."}
+{"id": 11, "text": "Renewable energy sources include solar, wind, and hydro power."}
+{"id": 12, "text": "Solar panels convert sunlight directly into electricity."}
+{"id": 13, "text": "Neural networks are inspired by the structure of the human brain."}
+{"id": 14, "text": "Artificial neural networks loosely mimic how biological brains work."}
+{"id": 15, "text": "Exercise regularly to maintain good cardiovascular health."}
+{"id": 16, "text": "Regular physical activity is important for heart health."}
+{"id": 17, "text": "The stock market experienced significant volatility last quarter."}
+{"id": 18, "text": "Markets were highly volatile during the previous quarter."}
+{"id": 19, "text": "Quantum computing leverages quantum mechanical phenomena to process information."}
+{"id": 20, "text": "Quantum computers use principles of quantum mechanics to perform calculations."}
+{"id": 21, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 22, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 23, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 24, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 25, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 26, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 27, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 28, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 29, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 30, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 31, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 32, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 33, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 34, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 35, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 36, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 37, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 38, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 39, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 40, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 41, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 42, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 43, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 44, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 45, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 46, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 47, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 48, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 49, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 50, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 51, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 52, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 53, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 54, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 55, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 56, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 57, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 58, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 59, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 60, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 61, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 62, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 63, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 64, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 65, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 66, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 67, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 68, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 69, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 70, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 71, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 72, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 73, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 74, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 75, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 76, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 77, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 78, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 79, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 80, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 81, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 82, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 83, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 84, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 85, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 86, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 87, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 88, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 89, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 90, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 91, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 92, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 93, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 94, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 95, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 96, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 97, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 98, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 99, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 100, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 101, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 102, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 103, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 104, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 105, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 106, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 107, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 108, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 109, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 110, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 111, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 112, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 113, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 114, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 115, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 116, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 117, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 118, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 119, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 120, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 121, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 122, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 123, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 124, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 125, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 126, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 127, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 128, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 129, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 130, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 131, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 132, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 133, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 134, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 135, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 136, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 137, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 138, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 139, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 140, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 141, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 142, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 143, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 144, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 145, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 146, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 147, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 148, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 149, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 150, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 151, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 152, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 153, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 154, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 155, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 156, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 157, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 158, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 159, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 160, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 161, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 162, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 163, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 164, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 165, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 166, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 167, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 168, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 169, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 170, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 171, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 172, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 173, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 174, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 175, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 176, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 177, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 178, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 179, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 180, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 181, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 182, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 183, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 184, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 185, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 186, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 187, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 188, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 189, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 190, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 191, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 192, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 193, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 194, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 195, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 196, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 197, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 198, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 199, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 200, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 201, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 202, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 203, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 204, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 205, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 206, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 207, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 208, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 209, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 210, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 211, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 212, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 213, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 214, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 215, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 216, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 217, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 218, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 219, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 220, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 221, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 222, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 223, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 224, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 225, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 226, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 227, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 228, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 229, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 230, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 231, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 232, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 233, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 234, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 235, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 236, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 237, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 238, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 239, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 240, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 241, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 242, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 243, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 244, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 245, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 246, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 247, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 248, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 249, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 250, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 251, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 252, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 253, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 254, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 255, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 256, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 257, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 258, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 259, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 260, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 261, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 262, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 263, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 264, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 265, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 266, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 267, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 268, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 269, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 270, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 271, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 272, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 273, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 274, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 275, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 276, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 277, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 278, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 279, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 280, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 281, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 282, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 283, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 284, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 285, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 286, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 287, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 288, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 289, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 290, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 291, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 292, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 293, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 294, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 295, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 296, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 297, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 298, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 299, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 300, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 301, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 302, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 303, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 304, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 305, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 306, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 307, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 308, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 309, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 310, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 311, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 312, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 313, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 314, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 315, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 316, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 317, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 318, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 319, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 320, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 321, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 322, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 323, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 324, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 325, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 326, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 327, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 328, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 329, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 330, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 331, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 332, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 333, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 334, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 335, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 336, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 337, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 338, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 339, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 340, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 341, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 342, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 343, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 344, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 345, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 346, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 347, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 348, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 349, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 350, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 351, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 352, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 353, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 354, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 355, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 356, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 357, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 358, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 359, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 360, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 361, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 362, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 363, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 364, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 365, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 366, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 367, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 368, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 369, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 370, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 371, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 372, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 373, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 374, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 375, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 376, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 377, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 378, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 379, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 380, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 381, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 382, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 383, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 384, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 385, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 386, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 387, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 388, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 389, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 390, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 391, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 392, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 393, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 394, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 395, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 396, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 397, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 398, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 399, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 400, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 401, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 402, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 403, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 404, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 405, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 406, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 407, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 408, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 409, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 410, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 411, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 412, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 413, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 414, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 415, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 416, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 417, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 418, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 419, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 420, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 421, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 422, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 423, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 424, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 425, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 426, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 427, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 428, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 429, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 430, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 431, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 432, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 433, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 434, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 435, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 436, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 437, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 438, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 439, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 440, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 441, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 442, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 443, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 444, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 445, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 446, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 447, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 448, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 449, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 450, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 451, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 452, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 453, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 454, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 455, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 456, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 457, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 458, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 459, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 460, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}
+{"id": 461, "text": "Python is a popular programming language used widely in data science and AI."}
+{"id": 462, "text": "Python remains one of the most used languages for machine learning and data analysis."}
+{"id": 463, "text": "Climate change is accelerating due to greenhouse gas emissions from human activity."}
+{"id": 464, "text": "Human-caused greenhouse gases are speeding up climate change across the planet."}
+{"id": 465, "text": "Exercise improves cardiovascular health and reduces the risk of chronic disease."}
+{"id": 466, "text": "Regular physical activity strengthens the heart and lowers chronic illness risk."}
+{"id": 467, "text": "Neural networks learn patterns from data through a process called backpropagation."}
+{"id": 468, "text": "Backpropagation allows neural networks to adjust weights and learn from training data."}
+{"id": 469, "text": "The stock market reflects investor sentiment and macroeconomic conditions."}
+{"id": 470, "text": "Macroeconomic trends and investor confidence are mirrored in stock market movements."}
+{"id": 471, "text": "Renewable energy sources like solar and wind are replacing fossil fuels."}
+{"id": 472, "text": "Solar and wind power are increasingly substituting traditional fossil fuel energy."}
+{"id": 473, "text": "Large language models are trained on vast corpora of text data."}
+{"id": 474, "text": "LLMs require enormous text datasets to develop language understanding capabilities."}
+{"id": 475, "text": "Quantum computing uses qubits to perform calculations exponentially faster."}
+{"id": 476, "text": "Qubits enable quantum computers to solve problems far quicker than classical machines."}
+{"id": 477, "text": "Vaccines work by training the immune system to recognise pathogens."}
+{"id": 478, "text": "The immune system learns to fight diseases through the mechanism vaccines use."}
+{"id": 479, "text": "Deep learning has transformed computer vision, enabling accurate image recognition."}
+{"id": 480, "text": "Image recognition accuracy improved dramatically thanks to deep learning breakthroughs."}
+{"id": 481, "text": "Blockchain provides a decentralised ledger for secure and transparent transactions."}
+{"id": 482, "text": "A decentralised and tamper-proof transaction record is what blockchain technology offers."}
+{"id": 483, "text": "Natural language processing enables computers to understand and generate human language."}
+{"id": 484, "text": "Computers can read, interpret, and produce human language thanks to NLP techniques."}
+{"id": 485, "text": "Data privacy regulations like GDPR protect users from misuse of personal information."}
+{"id": 486, "text": "GDPR and similar laws ensure personal data is handled responsibly and securely."}
+{"id": 487, "text": "Cloud computing allows businesses to scale infrastructure on demand."}
+{"id": 488, "text": "On-demand infrastructure scaling is one of the key advantages of cloud computing."}
+{"id": 489, "text": "Autonomous vehicles use sensors and AI to navigate roads without human input."}
+{"id": 490, "text": "AI and sensor arrays allow self-driving cars to travel roads independently."}
+{"id": 491, "text": "Cybersecurity threats are growing in frequency and sophistication globally."}
+{"id": 492, "text": "Increasingly complex and frequent cyberattacks pose a major global security challenge."}
+{"id": 493, "text": "Social media algorithms amplify content that maximises user engagement."}
+{"id": 494, "text": "Engagement-maximising content gets boosted by the algorithms powering social platforms."}
+{"id": 495, "text": "Gene editing with CRISPR can correct genetic defects with high precision."}
+{"id": 496, "text": "CRISPR technology allows precise correction of faulty genes in living organisms."}
+{"id": 497, "text": "The human brain contains roughly 86 billion neurons connected by synapses."}
+{"id": 498, "text": "About 86 billion neurons linked through synapses make up the human brain."}
+{"id": 499, "text": "Inflation reduces purchasing power when prices rise faster than wages."}
+{"id": 500, "text": "When wages lag behind rising prices, inflation erodes consumer purchasing power."}

@@ -1,0 +1,20 @@
+# -- Secrets -------------------------------------------------------------------
+.env
+
+# -- Python --------------------------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# -- Model cache (downloaded automatically on first run) -----------------------
+.cache/
+
+# -- Generated outputs (recreated by running the modules) ---------------------
+savings.json
+module1_dedup/data/clean_dataset.jsonl
+module2_router/tasks/results.jsonl
+
+# -- OS ------------------------------------------------------------------------
+.DS_Store
+Thumbs.db

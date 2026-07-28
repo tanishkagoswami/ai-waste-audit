@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Waste Audit Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="page">
+
+  <h1>AI Waste Audit</h1>
+  <p class="subtitle">Real-time savings tracker — pre-training deduplication &amp; runtime model routing</p>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="primary" onclick="runDedup()">▶ Run Module 1 (Dedup)</button>
+    <button class="primary" style="background:#7c5cd8;border-color:#7c5cd8;" onclick="runPipeline()">▶ Run Module 2 (Router)</button>
+    <button class="danger" onclick="resetStore()">↺ Reset</button>
+    <span id="status"></span>
+  </div>
+
+  <!-- KPI row -->
+  <h2>Total Savings</h2>
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="val" id="kpi-cost">$0.00</div>
+      <div class="lbl">Cost Saved (USD)</div>
+    </div>
+    <div class="kpi">
+      <div class="val" id="kpi-gpu">0</div>
+      <div class="lbl">GPU-Hours Saved</div>
+    </div>
+    <div class="kpi">
+      <div class="val" id="kpi-kwh">0</div>
+      <div class="lbl">Energy Saved (kWh)</div>
+    </div>
+    <div class="kpi">
+      <div class="val" id="kpi-litres">0</div>
+      <div class="lbl">Water Saved (L)</div>
+    </div>
+  </div>
+
+  <!-- Module panels -->
+  <h2>Module Breakdown</h2>
+  <div class="modules">
+
+    <div class="panel m1">
+      <h3>Module 1 — Data Deduplication</h3>
+      <div class="stat-row"><span class="k">Rows before</span>  <span class="v" id="m1-before">—</span></div>
+      <div class="stat-row"><span class="k">Duplicates removed</span><span class="v" id="m1-removed">—</span></div>
+      <div class="stat-row"><span class="k">Rows after</span>   <span class="v" id="m1-after">—</span></div>
+      <div class="stat-row"><span class="k">GPU-hours saved</span><span class="v" id="m1-gpu">—</span></div>
+      <div class="stat-row"><span class="k">Energy saved</span> <span class="v" id="m1-kwh">—</span></div>
+      <div class="stat-row"><span class="k">Water saved</span>  <span class="v" id="m1-litres">—</span></div>
+      <div class="stat-row"><span class="k">Cost saved</span>   <span class="v" id="m1-cost">—</span></div>
+    </div>
+
+    <div class="panel m2">
+      <h3>Module 2 — Runtime Router</h3>
+      <div class="stat-row"><span class="k">Tasks audited</span>  <span class="v" id="m2-audited">—</span></div>
+      <div class="stat-row"><span class="k">Tasks rerouted (cheap)</span><span class="v" id="m2-rerouted">—</span></div>
+      <div class="stat-row"><span class="k">Correctly escalated</span><span class="v" id="m2-escalated">—</span></div>
+      <div class="stat-row"><span class="k">Cost saved</span>     <span class="v" id="m2-cost">—</span></div>
+    </div>
+
+  </div>
+
+  <!-- Task audit table -->
+  <h2>Task Audit Log (Module 2)</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Prompt</th>
+          <th>Difficulty</th>
+          <th>Primary Model</th>
+          <th>Similarity</th>
+          <th>Equivalent?</th>
+          <th>Adopted</th>
+          <th>Saved ($)</th>
+        </tr>
+      </thead>
+      <tbody id="task-table-body">
+        <tr><td colspan="8" style="text-align:center;color:#57606a;padding:16px;">
+          No tasks yet — run Module 2 to populate this table.
+        </td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<div class="footer">Made with IBM Bob</div>
+
+<script>
+  // ── Helpers ──────────────────────────────────────────────────────────────
+  const $ = id => document.getElementById(id);
+
+  function setStatus(msg, visible = true) {
+    const el = $('status');
+    el.textContent = msg;
+    el.className = visible ? 'visible' : '';
+  }
+
+  function fmt(n, decimals = 4) {
+    return Number(n).toFixed(decimals);
+  }
+
+  // ── Render summary ────────────────────────────────────────────────────────
+  function renderSummary(d) {
+    $('kpi-cost').textContent   = '$' + fmt(d.total_cost_usd, 4);
+    $('kpi-gpu').textContent    = fmt(d.m1_gpu_hours, 4);
+    $('kpi-kwh').textContent    = fmt(d.m1_kwh, 4);
+    $('kpi-litres').textContent = fmt(d.m1_litres, 4);
+
+    $('m1-before').textContent  = d.m1_rows_before  || 0;
+    $('m1-removed').textContent = d.m1_rows_removed || 0;
+    $('m1-after').textContent   = d.m1_rows_after   || 0;
+    $('m1-gpu').textContent     = fmt(d.m1_gpu_hours, 6);
+    $('m1-kwh').textContent     = fmt(d.m1_kwh, 6) + ' kWh';
+    $('m1-litres').textContent  = fmt(d.m1_litres, 6) + ' L';
+    $('m1-cost').textContent    = '$' + fmt(d.m1_cost_usd, 6);
+
+    $('m2-audited').textContent   = d.m2_tasks_audited  || 0;
+    $('m2-rerouted').textContent  = d.m2_tasks_rerouted || 0;
+    $('m2-escalated').textContent = d.m2_escalations    || 0;
+    $('m2-cost').textContent      = '$' + fmt(d.m2_cost_saved_usd, 6);
+  }
+
+  // ── Render task table ─────────────────────────────────────────────────────
+  function renderTasks(tasks) {
+    const tbody = $('task-table-body');
+    if (!tasks || tasks.length === 0) return;
+    tbody.innerHTML = tasks.map(t => `
+      <tr>
+        <td>${t.id}</td>
+        <td style="max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${t.prompt}">${t.prompt}</td>
+        <td>${t.difficulty}</td>
+        <td><span class="badge ${t.primary_model.includes('4') ? 'exp' : 'cheap'}">${t.primary_model}</span></td>
+        <td>${t.similarity}</td>
+        <td><span class="badge ${t.equivalent ? 'yes' : 'no'}">${t.equivalent ? 'Yes' : 'No'}</span></td>
+        <td><span class="badge ${t.adopted.includes('4') ? 'exp' : 'cheap'}">${t.adopted}</span></td>
+        <td>${t.cost_saved_usd}</td>
+      </tr>
+    `).join('');
+  }
+
+  // ── Fetch and refresh ─────────────────────────────────────────────────────
+  async function refresh() {
+    try {
+      const [sumRes, taskRes] = await Promise.all([
+        fetch('/api/summary'),
+        fetch('/api/module2/tasks'),
+      ]);
+      const summary = await sumRes.json();
+      const tasks   = await taskRes.json();
+      renderSummary(summary);
+      renderTasks(tasks);
+    } catch(e) {
+      console.warn('Refresh failed:', e);
+    }
+  }
+
+  // ── Button actions ────────────────────────────────────────────────────────
+  async function runDedup() {
+    setStatus('Running Module 1 deduplication …');
+    await fetch('/api/run/dedup', { method: 'POST' });
+    await refresh();
+    setStatus('Module 1 complete.');
+  }
+
+  async function runPipeline() {
+    setStatus('Running Module 2 router pipeline …');
+    await fetch('/api/run/pipeline', { method: 'POST' });
+    await refresh();
+    setStatus('Module 2 complete.');
+  }
+
+  async function resetStore() {
+    if (!confirm('Reset all savings data?')) return;
+    await fetch('/api/reset', { method: 'POST' });
+    await refresh();
+    setStatus('Store reset.');
+  }
+
+  // ── Auto-refresh every 5 s ────────────────────────────────────────────────
+  refresh();
+  setInterval(refresh, 5000);
+</script>
+
+</body>
+</html>
